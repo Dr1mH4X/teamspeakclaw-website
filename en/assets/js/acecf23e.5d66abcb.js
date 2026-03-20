@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[903],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/teamspeakclaw-website/en/blog","blogTitle":"Blog","authorsListPath":"/teamspeakclaw-website/en/blog/authors"}')}}]);
