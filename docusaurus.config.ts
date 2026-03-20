@@ -11,7 +11,7 @@ const config: Config = {
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: false, // Improve compatibility with the upcoming Docusaurus v4
   },
 
   // Set the production url of your site here
@@ -33,8 +33,15 @@ const config: Config = {
   i18n: {
     defaultLocale: "zh-Hans",
     locales: ["zh-Hans", "en"],
+    localeConfigs: {
+      "zh-Hans": {
+        label: "简体中文",
+      },
+      en: {
+        label: "English",
+      },
+    },
   },
-
   presets: [
     [
       "classic",
@@ -111,7 +118,7 @@ const config: Config = {
             },
             {
               label: "下载",
-              to: "/docs/download",
+              to: "/docs/setup",
             },
             {
               label: "配置",
